@@ -66,7 +66,7 @@ public class day1 {
       System.out.println("Initial Name : " + findInitialName(name));
 
       myInput.close();
-
+      System.out.println("\nScanner Closed.");
     }
 
 
@@ -111,7 +111,7 @@ public class day1 {
 //        LocalDate dateTemp2 = LocalDate.parse(date2);
 //        Duration DateDiff =  Duration.between(dateTemp2.atStartOfDay(),dateTemp.atStartOfDay());
 //        int DateDifference = (int) DateDiff.toDays();
-//        return DateDifference;
+//        return DateDifference
 
 
 

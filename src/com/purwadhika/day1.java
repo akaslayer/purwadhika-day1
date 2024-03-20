@@ -111,6 +111,7 @@ public class day1 {
         LocalDate parsedEndDate = LocalDate.parse(date2,formatter);
         long daysDifference = ChronoUnit.DAYS.between(parsedStartDate,parsedEndDate);
         return (int) Math.abs(daysDifference);
+
 //        LocalDate dateTemp = LocalDate.parse(date1);
 //        LocalDate dateTemp2 = LocalDate.parse(date2);
 //        Duration DateDiff =  Duration.between(dateTemp2.atStartOfDay(),dateTemp.atStartOfDay());

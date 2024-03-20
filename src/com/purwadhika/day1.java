@@ -66,7 +66,7 @@ public class day1 {
       System.out.println("Initial Name : " + findInitialName(name));
 
       myInput.close();
-      System.out.println("\nScanner Closed.");
+
     }
 
 

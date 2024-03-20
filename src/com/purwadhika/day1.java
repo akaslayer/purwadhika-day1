@@ -96,6 +96,7 @@ public class day1 {
         for(int i = 0;i<arrOfStr.length;i++){
             StrTemp+=arrOfStr[i].charAt(0);
         }
+        System.out.println("haha");
         return StrTemp.toUpperCase();
     }
 

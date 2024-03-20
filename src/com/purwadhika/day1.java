@@ -111,8 +111,6 @@ public class day1 {
 //        LocalDate dateTemp2 = LocalDate.parse(date2);
 //        Duration DateDiff =  Duration.between(dateTemp2.atStartOfDay(),dateTemp.atStartOfDay());
 //        int DateDifference = (int) DateDiff.toDays();
-//        return DateDifference
-
 
 
     }

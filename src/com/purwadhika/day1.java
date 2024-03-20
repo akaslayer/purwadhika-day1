@@ -105,7 +105,9 @@ public class day1 {
         LocalDate parsedStartDate = LocalDate.parse(date1,formatter);
         LocalDate parsedEndDate = LocalDate.parse(date2,formatter);
         long daysDifference = ChronoUnit.DAYS.between(parsedStartDate,parsedEndDate);
+        System.out.println("Apakabar");
         return (int) Math.abs(daysDifference);
+
 
 //        LocalDate dateTemp = LocalDate.parse(date1);
 //        LocalDate dateTemp2 = LocalDate.parse(date2);

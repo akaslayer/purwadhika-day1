@@ -1,0 +1,13 @@
+warning: in the working copy of 'src/Main.java', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/Main.java b/src/Main.java[m
+[1mindex 3e59c38..ce996dd 100644[m
+[1m--- a/src/Main.java[m
+[1m+++ b/src/Main.java[m
+[36m@@ -1,5 +1,5 @@[m
+ public class Main {[m
+     public static void main(String[] args) {[m
+[31m-        System.out.println("Hello world!");[m
+[32m+[m[32m        System.out.println("Mama mia");[m
+     }[m
+ }[m
+\ No newline at end of file[m
